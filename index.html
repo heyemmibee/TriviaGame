@@ -1,43 +1,41 @@
 <!DOCTYPE html>
+<html lang="en-us">
+
 <head>
-
-    <title>Totally.Doggy.Trivia</title>
     <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
-
-<!-- trying to get the responsive framework yo -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <title>Dog Trivia</title>
+    <link rel="icon" href="./assets/images/dog-icon.png">
+
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 
 <body>
-        <div class="jumbotron jumbotron-fluid bg-dark text-white text-center">
-                <div class="container">
-                  <h1 class="display-4">Totally Weird Dog Trivia</h1>
-                  <p class="lead">You have 8 minutes to paw your brain on these obscure doggy questions. </p>
-                  <button id="buttonStart" type="button" class="btn btn-primary" data-toggle="button" aria-pressed="false" autocomplete="off">
-                        Let's Begin!
-                      </button>
-                      <br> <br>
-                    <p>Time Remaining: <span id="timer">8:00</span> minutes!</p>
-                </div>
-        </div>
-        <div class="container" id="testbank">
-            <div class="row">
+    <div class="jumbotron text-center">
+        <img src="./assets/images/Totally Dog Trivia.png" id="jumbo-image" class="img-thumbnail">
+    </div>
+        <div class="container"> <br>
+            <div class="row" id="begin-box">
                 <div class="col-md-12">
-                    <h1>
-                        Questions & Answers here
-                    </h1>
-                    <div class="row">
-                        pop up questions?
+                    <div class="card">
+                        <div class="card-header text-center">
+                            <h2>PAWesome Dog Trivia!</h2>
+                        </div>
+                        <div class="card-body text-center">
+                            <h4>Think you know enough about dogs, think again! You have 30 seconds to guess the answers to the </h4>
+                        <button type="button" class="btn btn-success" id="start-trivia">Let's Begin!</button>
+                        <div id="quiz-space"></div>
+                        </div>
                     </div>
-
                 </div>
             </div>
         </div>
-    <script type="text/javascript" src="./assets/javascript/app.js">
-    </script>
+          <!-- Script -->
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+</html>

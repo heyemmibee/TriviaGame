@@ -6,6 +6,7 @@ Trivia Game 'Doggy Trivia' uses basic Javascript, jQuery, HTML and Boostrap CSS.
 
 This application is able to be run locally via deployment link below:
 
+https://heyemmibee.github.io/TriviaGame/
 
 ## Prerequisites
 
